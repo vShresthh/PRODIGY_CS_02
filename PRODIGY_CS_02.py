@@ -1,5 +1,5 @@
-import cv2 # type: ignore
-import numpy as np # type: ignore
+import cv2
+import numpy as np
 
 def encrypt_image(input_image_path, output_image_path, key):
   """Encrypts an image using pixel manipulation.
